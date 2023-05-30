@@ -1,0 +1,123 @@
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* title_wrap START */
+#wrap > div.title_wrap {
+  border-bottom: thick double #dadada;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1em;
+}
+/* title_wrap END */
+
+/* menu_wrap START */
+#wrap > div.menu_wrap {
+  text-align: center;
+}
+
+#wrap > div.menu_wrap a {
+  display: inline-block;
+  width: 100px;
+  margin: 10px 5px;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#wrap > div.menu_wrap a:hover {
+  text-decoration: none;
+  background-color: #f8f8f8;
+}
+
+/* 처음 들어왔을 때 화면에서 sign_out 안보이게 하기 위함 */
+#wrap > div.menu_wrap a.sign_out {
+  display: none;
+}
+/* menu_wrap END */
+
+/* sign_up_wrap START*/
+#wrap > div.sign_up_wrap {
+  text-align: center;
+  display: none;
+}
+
+#wrap > div.sign_up_wrap input {
+  width: 400px;
+  padding: 10px;
+  margin: 1px;
+  border: 1px solid #dadada;
+  border-radius: 7px;
+}
+
+#wrap > div.sign_up_wrap input[type="button"] {
+  width: 100px;
+  cursor: pointer;
+}
+/* sign_up_wrap END*/
+
+/* sign_in_wrap START */
+#wrap > div.sign_in_wrap {
+  text-align: center;
+  display: none;
+}
+
+#wrap > div.sign_in_wrap input {
+  width: 400px;
+  padding: 10px;
+  margin: 1px;
+  border: 1px solid #dadada;
+  border-radius: 7px;
+}
+
+#wrap > div.sign_in_wrap input[type="button"] {
+  width: 100px;
+  cursor: pointer;
+}
+/* sign_in_wrap END */
+
+/* write_wrap START */
+#wrap > div.write_wrap {
+  text-align: center;
+  display: none;
+}
+
+#wrap > div.write_wrap input {
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #dadada;
+  border-radius: 7px;
+  font-size: 1.2em;
+}
+#wrap > div.write_wrap button {
+  padding: 20px;
+  margin: 10px 0px;
+  border: 1px solid #dadada;
+  border-radius: 7px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#wrap > div.write_wrap button:hover {
+  background-color: #f8f8f8;
+}
+/* write_wrap END */
+
+/* list_wrap START */
+#wrap > div.list_wrap {
+  display: none;
+}
+/* list에 동적으로 item이 쌓임 */
+#wrap > div.list_wrap div {
+  margin: 2px auto;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 7px;
+}
+
+/* list_wrap END */
