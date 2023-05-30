@@ -41,12 +41,12 @@ const addDiary = (text) => {
   // 하기 전에 singinsession.js 생성
   // 로그인 한 사람들의 diaryDB정보 들고 오기 위함
   let diaryArr = diaryDB.get(signInedMemberId);
-  diaryArr.push(txt);
+  diaryArr.push(text);
 
   console.log("diartArr: ", diaryArr);
 };
 
-const searchDiary = () => {
+const searchDiaries = () => {
   console.log("searchDiary() CALLED!!");
 
   let diaryArr = diaryDB.get(signInedMemberId);
